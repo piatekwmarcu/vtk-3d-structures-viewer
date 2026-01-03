@@ -17,13 +17,3 @@ Case study: **inner ear anatomy** — volume data (**.nrrd**) + segmented 3D str
 ## Data source
 Inner ear dataset from OpenAnatomy:
 https://www.openanatomy.org/atlas-pages/atlas-spl-inner-ear.html
-
-> Large datasets are not included in this repo due to size/licensing.
-> See `data/README.md` for download + folder layout.
-
-## Setup
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
